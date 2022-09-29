@@ -411,7 +411,7 @@ bot.on('messageCreate', async message => {
             message.reply("經度錯誤")
             return
         }
-        let URL = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=f44a85bf4c0dee1b9af142ab33b05e31`;
+        let URL = `openweatherURLHere`;
         let request = require("request");
         const main = async() => {
             request(URL, function(error, response, body) {
